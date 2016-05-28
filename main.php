@@ -15,7 +15,7 @@ $rows = mysqli_fetch_assoc($select_table);
 
 if ($rows)
 {
-getcsv(array_keys($rows));
+getcsv(array_keys($rows));  ss
 }
 while($rows)
 {
