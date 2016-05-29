@@ -10,7 +10,7 @@ header('Content-Type: text/csv');
 header('Content-Disposition: attachment;filename=exported-data.csv');
 
 //select table to export the data
-$select_table=mysqli_query($db,'select * from Products');
+$select_table=mysqli_query($db,'select * from Products');sadnamb
 $rows = mysqli_fetch_assoc($select_table);
 
 if ($rows)
