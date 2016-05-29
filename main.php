@@ -26,7 +26,7 @@ $rows = mysqli_fetch_assoc($select_table);
 // get total number of fields present in the database
 
 
-}
+}dsdas
 function getcsv($no_of_field_names)
 {
 $separate = '';
